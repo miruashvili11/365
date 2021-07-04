@@ -1,0 +1,79 @@
+
+.Profile {
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Profile__Text {
+    font-weight: 900;
+    color: rgb(0, 217, 255);
+}
+
+.Logout {
+    margin: 50px;
+}
+
+.Logout input {
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(0, 255, 255, 0.658);
+    color: #fff;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.Profile__Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Protfiel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.Dashbord_Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Inventory__Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Cart__Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Orders__Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Transactions__Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Stores__Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,11 @@
+.catalog__add {
+    display: none;
+    right: 20px;
+    top: 45px;
+    color: white;
+    border-radius: 4px;
+    background-color: #61d5df;
+    position: absolute;
+    padding: 5px 10px;
+    margin: 0;
+}
