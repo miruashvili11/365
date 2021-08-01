@@ -1,0 +1,47 @@
+.catalog__checkbox,
+.catalog__inventory-button {
+    /*display: none;*/
+}
+.catalog__select-active {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    /*position: absolute;*/
+}
+.catalog__product:hover .catalog__checkbox,
+.catalog__product:hover .catalog__inventory-button {
+    display: block;
+}
+
+.catalog__checkbox--clicked {
+    display: block;
+}
+
+.catalog__product {
+    position: relative;
+}
+
+.catalog__checkbox {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.catalog__inventory-button {
+    top: 10px;
+    right: 10px;
+}
+
+.catalog__head--active {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+.catalog__head {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 14px;
+}
